@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Prata&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* header */
+
+header, body, footer {
+    font-family: "Lora", serif;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    margin-inline: auto;
+    margin-top: 15px;
+}
+
+h1 {
+    display: inline-block;
+    width: 600px;
+    padding-top: 15px;
+}
+
+.logo img{
+    width: 200px;
+    
+}
+
+.sub-logo p {
+    font-size: 13px;
+    background-color: #FFFBF1;
+    border-top: 1px solid #FFD977;
+    color: #004D68;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+}
+
+/* main image */
+
+main {
+    width: 720px;
+    margin-inline: auto;
+}
+
+.focaccia-photo img {
+    border-radius: 2%;
+}
+
+.focaccia-photo figcaption {
+    text-align: center;
+    padding-top: 15px;
+    color: rgb(187, 187, 187);
+}
+
+.focaccia-photo p {
+    border-left: 2px solid #FFD977;
+    padding-left: 15px;
+    color: #d35719;
+    margin-bottom: 45px;
+}
+
+.focaccia-photo a, footer p a {
+    color: #0a7270;
+}
+
+/* main ingredients and method */
+
+div h3 {
+    padding-top: 10px;
+    font-size: 23px;
+}
+
+hr {
+    border-color: #c3fffb;
+}
+
+ul li {
+    line-height: 33px;
+}
+
+.preparation {
+    width: 90%;
+    margin: auto;
+}
+
+ol {
+    padding-left: 0;
+}
+
+/* footer */
+
+footer p {
+    width: 720px;
+    margin-inline: auto;
+}
